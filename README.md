@@ -1,2 +1,3 @@
 # Pothole_Detection_on_Roads
 This project developed a YOLOv8 model to detect potholes on roads using annotated images for training. The model was tested for accuracy and then applied to real-time video footage, effectively identifying potholes. 
+This model learns to identify and locate potholes by classifying and drawing bounding boxes around them. The trained model is then applied to video footage of moving roads, detecting and marking potholes in real-time. This project demonstrates the practical application of the model in dynamic environments, such as real-time monitoring for autonomous vehicles or road maintenance systems, showcasing its potential to enhance road safety and maintenance.
