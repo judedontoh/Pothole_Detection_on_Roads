@@ -1,3 +1,54 @@
-# Pothole_Detection_on_Roads
-This project developed a YOLOv8 model to detect potholes on roads using annotated images for training. The model was tested for accuracy and then applied to real-time video footage, effectively identifying potholes. 
-This model learns to identify and locate potholes by classifying and drawing bounding boxes around them. The trained model is then applied to video footage of moving roads, detecting and marking potholes in real-time. This project demonstrates the practical application of the model in dynamic environments, such as real-time monitoring for autonomous vehicles or road maintenance systems, showcasing its potential to enhance road safety and maintenance.
+# Pothole Detection on Roads
+
+## Project Overview
+- Used a YOLOv8 model to detect potholes on roads using annotated images for training.
+- Tested the model for accuracy and applied it to real-time video footage to identify potholes effectively.
+- The application aims to improve road safety and maintenance by enabling real-time monitoring for autonomous vehicles and road maintenance systems.
+
+## Motivation
+The detection of potholes on roads is critical for ensuring road safety and timely maintenance. Autonomous vehicles and road maintenance systems can benefit from real-time monitoring to avoid accidents and plan repairs. This project aims to provide a robust solution for detecting potholes using advanced deep-learning techniques.
+
+## Code and Resources Used
+- **Python Version**: 3.8
+- **Packages**: ultralytics, opencv, numpy, torch, matplotlib
+- **Requirements**: `pip install -r requirements.txt`
+- **YOLOv8**: [YOLOv8 Documentation](https://github.com/ultralytics/yolov8)
+- **Project Write-Up**: Detailed project steps and findings can be found in the provided notebook and additional documentation.
+
+## Data Collection
+I annotated the images on [Roboflow](https://app.roboflow.com/jude-h0f2m/pothole-detection-yolov8-jnw3f/deploy) to train the model. The original images can be found on [Kaggle](https://www.kaggle.com/).
+
+![Annotated Image Example](pothole_example.jpg)
+
+## EDA
+Exploratory Data Analysis included:
+- Visualization of annotated images to understand the distribution and variety of potholes.
+- Analysis of image quality and annotation accuracy.
+- Assessment of different road conditions and potholes in various scenarios.
+
+## Preprocessing and Feature Engineering
+- Images were preprocessed to standardize size and format.
+- Data augmentation techniques were applied to increase the diversity of training samples.
+- Specific features related to pothole shapes and sizes were engineered to enhance model performance.
+
+## Model Building
+- Built a YOLOv8 model, leveraging its advanced object detection capabilities.
+- Compared different configurations and hyperparameters to optimize model performance.
+- Implemented techniques to handle class imbalance and improve detection accuracy.
+
+## Model Performance
+The YOLOv8 model was evaluated on a test set of annotated images:
+- **Precision**: High accuracy in detecting potholes with minimal false positives.
+- **Recall**: Effectively identified the majority of potholes with few false negatives.
+- The model demonstrated robustness across various road conditions and lighting scenarios.
+
+## Model Explainability
+- Used visualization tools to interpret the model's detection capabilities.
+- Analyzed which features and aspects of the images were most influential in detecting potholes.
+- Identified key factors contributing to successful detections and areas for improvement.
+
+## Model Application
+Here's a video demonstrating the model applied to real-time video footage:
+[Download and watch the video](download.mp4)
+
+
