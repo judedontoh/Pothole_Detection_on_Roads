@@ -18,23 +18,18 @@ The detection of potholes on roads is critical for ensuring road safety and time
 ## Data Collection
 I annotated the images on [Roboflow](https://app.roboflow.com/jude-h0f2m/pothole-detection-yolov8-jnw3f/deploy) to train the model. The original images can be found on [Kaggle](https://www.kaggle.com/).
 
-![Annotated Image Example](pothole_example.jpg)
-
 ## EDA
 Exploratory Data Analysis included:
 - Visualization of annotated images to understand the distribution and variety of potholes.
 - Analysis of image quality and annotation accuracy.
 - Assessment of different road conditions and potholes in various scenarios.
 
+![Annotated Image Example](pothole_example.jpg)
+
 ## Preprocessing and Feature Engineering
 - Images were preprocessed to standardize size and format.
 - Data augmentation techniques were applied to increase the diversity of training samples.
 - Specific features related to pothole shapes and sizes were engineered to enhance model performance.
-
-## Model Building
-- Built a YOLOv8 model, leveraging its advanced object detection capabilities.
-- Compared different configurations and hyperparameters to optimize model performance.
-- Implemented techniques to handle class imbalance and improve detection accuracy.
 
 ## Model Performance
 The YOLOv8 model was evaluated on a test set of annotated images:
@@ -49,6 +44,5 @@ The YOLOv8 model was evaluated on a test set of annotated images:
 
 ## Model Application
 Here's a video demonstrating the model applied to real-time video footage:
-[Download and watch the video](download.mp4)
 
-
+![Pothole Detection Video](images/download-ezgif.com-optimize.gif)
