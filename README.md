@@ -45,4 +45,4 @@ The YOLOv8 model was evaluated on a test set of annotated images:
 ## Model Application
 Here's a video demonstrating the model applied to real-time video footage:
 
-![Pothole Detection Video](images/download-ezgif.com-optimize.gif)
+![Pothole Detection Video](download-ezgif.com-optimize.gif)
