@@ -36,7 +36,7 @@ The YOLOv8 model was evaluated on a test set of annotated images:
 - High accuracy in detecting potholes with minimal false positives and effectively identified the majority of potholes with few false negatives.
 - The model demonstrated robustness across various road conditions and lighting scenarios.
 
-![Confusion Matrix](confusion matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ## Model Explainability
 - Used visualization tools to interpret the model's detection capabilities.
